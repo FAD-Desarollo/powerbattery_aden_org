@@ -1,0 +1,8 @@
+/pipelines
+Dockerfile
+Dockerfile-stage
+docker-compose.yml
+docker-compose-stage.yml
+Jenkinsfile
+deploy*
+./git
