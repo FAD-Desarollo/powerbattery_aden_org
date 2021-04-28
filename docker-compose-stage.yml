@@ -3,6 +3,6 @@ services:
   app-stage:
     image: "gcr.io/datacenter-tecnologia-296718/powerbattery_aden_org_stage:$BUILD_TAG"
     ports:
-      - "8090:80"
+      - "8091:80"
     restart: unless-stopped
     container_name: powerbattery_aden_org_stage

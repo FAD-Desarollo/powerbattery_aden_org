@@ -3,6 +3,6 @@ services:
   app:
     image: "gcr.io/odoo-erp-calendar/powerbattery_aden_org:$BUILD_TAG"
     ports:
-      - "8090:80"
+      - "8091:80"
     restart: unless-stopped
     container_name: powerbattery_aden_org
